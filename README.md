@@ -1,6 +1,6 @@
 # SimpleServerSjb
 
-TODO: Write a gem description
+A bare-bones file server, demonstrating capability.
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem sets up a bare-bones server to serve files out of public.
+For example:
+  'html' => 'text/html',
+  'txt' => 'text/plain',
+  'png' => 'image/png',
+  'jpg' => 'image/jpeg'
 
 ## Contributing
 
